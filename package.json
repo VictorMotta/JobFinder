@@ -1,0 +1,27 @@
+{
+  "name": "emprego_certo",
+  "version": "1.0.0",
+  "description": "Um site onde empresas cadastra vagas de empregos, para facilitar a vida do profissional de interesse.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev",
+    "jobs",
+    "oportunity",
+    "oportunidades"
+  ],
+  "author": "VictorMotta",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "sequelize": "^5.21.5",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
